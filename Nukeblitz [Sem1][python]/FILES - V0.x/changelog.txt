@@ -1,0 +1,64 @@
+Project_ENDSEM
+
+Changelog:
+
+V0.1:
+UI developed
+-Main Menu Window (Name,opt-Startgame|Endgame)
+-Start Game Window(opt-Newgame|Loadgame<buggy>|back)
+-End Game Window(exitconf,opt-YES|NO)
+-Gameplay Window<buggy after trying to get savegame feature>
+<Many files to handle, many windows open during execution>
+
+V0.2.0:
+UI improvements
+-Windows close and new ones get updated
+-Windows have icons and names
+-Loadgame feature works(in Startgame window opt-loadgame --loads game if present, or shows error)
+-InGameMenu Window(opt-SaveAndMenu|Menu)
+
+V0.2.1:
+UI imporvements
+-Background sound implemented (theme.wav plays when the main menu instance is called IF sound is enabled) <but doesnt stop when sound is off>
+-Game Options Window(opt-togglesound|deletesavedata|back)
+-Main menu now has Game options button
+
+V0.2.2:
+Sound fixes
+-Background music stops when toggled and saved.
+UI improvements
+-Game Options Window(opt-togglesound|deletesavedata|savechanges)
+
+V0.2.3:
+UI improvements
+-Minimizing black CMD window successfully implemented.
+
+V0.2.4:
+Structure improvements
+-New savefile format (NBSF -  encoded txt)
+-Muliple Save files are here. user can now save files with userdefined name
+-Save files get number ahead of name if repeated.
+-Load screen now shows all savefiles available and resizes itself based on number of saves
+-Delete savefile option expanded to delete selected file <deletes the file which is defined last/got last(check the killlist func, improvise there)>
+-Structured storage implemented. There are three folders GAME,SAV,SOUND which have respective files
+Drops
+--{DROPPED}All necessary screens now have Frame optimisations: Frame packs in centre of every screen, irrespective of the screen maximise or minimize
+--{DROPPED}[UI improvements - Removed titlebar buttons - Works on Python IDLE without title bar]<Failed to load on CMD>
+
+V0.2.5:
+Load and delete features modified-Now more secure-Enter your save file name and start playing!
+Exact files delete/load now
+
+<LAST GROUP DEVELPOMENT>
+<Developent from V0.2.6 is done alone by Mohit>
+
+V0.2.6:
+-Removed story dictionary content, left for future input
+-Load file menu has a frame showing the list of savefiles
+-[IMPLEMENT]Better window and element management (placement,colour)
+-[IMPLEMENT]
+-[IMPLEMENT]
+-[IMPLEMENT]
+-[IMPLEMENT]
+
+!!....DEVELOPEMENT TEMPORARILY STOPPED....!!

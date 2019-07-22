@@ -1,0 +1,32 @@
+# Note for this scenario the player will have to choose the right command
+#
+ All other actions will lead to the destruction of the bot
+# The Player dies,Game over!!
+
+
+Player: Detective are you fine.\n
+Detective: yeah i am , Looks like they are having an arguement.Use it to your advantage.\n
+Player: yeah i will The player uses his
+ <gun>
+
+Action-1:<Handgun>
+the player sees five people are alive
+He takes cover and tries to remain stealthy.
+He decides to wait till all the enemy people are dead.
+He shoots the last person on his leg
+Gets information about his 
+item
+
+
+Action-2:<Uzi>
+the player sees five people are alive
+He takes cover and tries to remain stealthy but fails
+He shoots all of them with his submachinegun 
+He shoots the last person on his leg
+Gets information about his item
+
+
+*The player goes to the palace and finally returns the object*
+THE END
+
+

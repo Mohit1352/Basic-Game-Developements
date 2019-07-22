@@ -1,0 +1,10 @@
+scene-7
+*conversation between player and enemy who is shot*
+player: Where is the stolen item? Tell me or else I will kill you.
+enemy: Please don't kill me! Our gang leader who is now dead gave us information about the location of your item in the form of a puzzle which I could not decipher. So, I can give you the puzzle and it's upto you to solve it.
+
+  *enemy hands over the puzzle to the player*
+
+It reads:
+     efufdujwft ipvtf
+Type the correct location to proceed in the game.

@@ -1,0 +1,20 @@
+*The player and detective go to a gun shop, to equip the player*
+
+The player has 200$ with him
+So he decides to buy a Uzi submachine.
+
+#if he helped the tramp
+
+The player has 100$ with him
+The player buys a basic Handgun.
+
+#if he doesnt help the Tramp
+
+*The Player and Detective board a metro to reach Royale street*\n
+Player: Are you sure we can find them here?
+\nDetective: My Intel is never wrong.
+
+*Both of them reached the building*\n
+*They suddenly here a gunshot*
+*They rush into the building*
+*The Detective gets shot*

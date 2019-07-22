@@ -1,0 +1,17 @@
+story = [{"*The Player wakes up shocked*\n
+Player: Where am I?\n
+Voice: In the underworld.\n
+Player: This cannot be. Please help me go back
+.\nThe item I was transporting is of national importance.
+\nA world war may break out if it goes missing.":{"Really!":1,"Huh!":1}},{"Voice: HUH.., Not again with another World War, the Underworld gets populated
+\nI will be having a lot of work.
+\nVoice: Fine you human , you will be reincarnated as bot
+Note your life Depends on the bot.\n
+You will come back to the Underworld if it's destroyed. \n
+Player: Thank You!!
+
+*Closes his eyes*
+":{"":2,"":2}},{"":{"":,"":}},{"":{"":,"":}},{"":{"":,"":}},{"":{"":,"":}}{"":{"":,"":}},
+
+
+

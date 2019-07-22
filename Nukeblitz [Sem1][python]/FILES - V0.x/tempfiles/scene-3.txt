@@ -1,0 +1,34 @@
+*The player gets the directions for the medical shop from the housemaid*\n
+Player (to himself): This should be easy.\n
+*On the way the player meets a sick tramp*\n
+Player: What happened? why are lying on the ground?\n
+Tramp: I don't have a little ounce of energy left in me, please help me to reach my home.\n
+
+
+#The player now has a choice whether or not to help the sick tramp.
+
+
+#if he helps
+
+Player: Fine, I will help you, tell me where your house is?\n
+Tramp: Its just down to the alley over there.
+*The player carries the sick tramp to his house*\n
+*To the players luck that house is owned by the medical shop owner*\n
+Player: I came here to buy some medicines for the sick detective.\n
+Owner: Oh I know exactly what you want! How is Sir Arthur?\n
+Player: He is fine. How much do the medicines cost?\n
+Owner: This one is on me boy, think of it as a gift for helping my old man.\n
+Player: Thank you.\n
+*The player receives the medicine and also gets an amount of 100$ with him.
+*
+
+#if he doesn't
+
+Player: I am sure someone else will help you.
+*The player leaves the tramp and goes to buy the medicine*\n
+*Player reaches the medical shop*\n
+Player: I came here to buy some medicines for the sick detective.\n
+Owner: Oh I know exactly what you want. How is Sir Arthur?\n
+Player: He is fine. How much do the medicines cost?\n
+Owner: The medicines will cost you 100$.\n
+*Player pays the amount and goes back to the detective's house*

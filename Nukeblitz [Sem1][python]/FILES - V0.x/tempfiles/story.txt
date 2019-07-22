@@ -1,0 +1,135 @@
+story = [{"*The Player wakes up shocked*\n
+Player: Where am I?\n
+Voice: In the underworld.\n
+Player: This cannot be. Please help me go back
+.\nThe item I was transporting is of national importance.
+\nA world war may break out if it goes missing.":{"Really!":1,"Huh!":1}},{"Voice: HUH.., Not again with another World War, the Underworld gets populated
+\nI will be having a lot of work.
+\nVoice: Fine you human , you will be reincarnated as bot
+Note your life Depends on the bot.\n
+You will come back to the Underworld if it's destroyed. \n
+Player: Thank You!!
+
+*Closes his eyes*
+":{"thinking":2,"searching idea":2}},
+
+ {"*The player along with his bot go to a dingy old cabin at the corner of grim street*
+*knocks on the door*\n
+Player (to himself): I hope he will help me.\n
+Mysterious voice : Who are you? Why have you come here?\n
+Player : I am looking for Sir Arthur Conan Doyle. I have a case to discuss with him.\n
+Mysterious voice : Come in.\n
+*The player enters the cabin , a maid servant takes the player to the ailing detective*
+\nPlayer : I have been robbed of an item which was of national importance.\n
+Detective : Why don't you report it to the police , I am sure they would do everything
+ within their strength to find such a high profile item.\n
+Player : I want to keep a low profile on this matter.\n
+Detective : Fine I will help you!!
+\nBut I am ill and have some work which I need to complete.\n
+Player (to himself): He is the only one who can help me.\n
+Player: I would be glad to help you out.
+":{"help him":3,"not help him":3}},
+{"*The player gets the directions for the medical shop from the housemaid*\n
+Player (to himself): This should be easy.\n
+*On the way the player meets a sick tramp*\n
+Player: What happened? why are lying on the ground?\n
+Tramp: I don't have a little ounce of energy left in me, please help me to reach my home.\n
+
+#The player now has a choice whether or not to help the sick tramp.":{"help him":4,"won't help":5}},
+
+{"Player: Fine, I will help you, tell me where your house is?\n
+Tramp: Its just down to the alley over there.
+*The player carries the sick tramp to his house*\n
+*To the players luck that house is owned by the medical shop owner*\n
+Player: I came here to buy some medicines for the sick detective.\n
+Owner: Oh I know exactly what you want! How is Sir Arthur?\n
+Player: He is fine. How much do the medicines cost?\n
+Owner: This one is on me boy, think of it as a gift for helping my old man.\n
+Player: Thank you.\n
+*The player receives the medicine and also gets an amount of 100$ with him.":{"proceed":6}}
+,{"Player: I am sure someone else will help you.
+*The player leaves the tramp and goes to buy the medicine*\n
+*Player reaches the medical shop*\n
+Player: I came here to buy some medicines for the sick detective.\n
+Owner: Oh I know exactly what you want. How is Sir Arthur?\n
+Player: He is fine. How much do the medicines cost?\n
+Owner: The medicines will cost you 100$.\n
+*Player pays the amount and goes back to the detective's house*
+":{"proceed":9}},
+{"*The player meets the Detective and  gives him the medicine*\n
+Detective : Thank you for getting me my medicine.\n
+Player: It wasn't a problem
+*The player goes to sleep*\n
+*The detective in the mean time feels well and starts investigating*\n
+
+*Player wakes up*
+*Goes to meet the detective and is surprised to see the detective on his table*
+\nPlayer: You look well, Didn't know you had such high recovery speed.\n
+Detective (Laughs): Thank you for that , I think I know who has taken your item.\n
+Player (Surprised): Who is that person?\nDetective: Have you heard of the royal vanguard?\n
+Player: Yes.
+\nDetective: Well they like antique items, they may have stolen your item.If we hurry we may actually nab them.\n
+Player: Let's go.
+":{"as he helped tramp:7}},
+{"*The player and detective go to a gun shop, to equip the player*
+
+The player has 200$ with him
+So he decides to buy a Uzi submachine.":{"proceed":8}},
+{"
+
+*The Player and Detective board a metro to reach Royale street*\n
+Player: Are you sure we can find them here?
+\nDetective: My Intel is never wrong.
+
+*Both of them reached the building*\n
+*They suddenly here a gunshot*
+*They rush into the building*
+*The Detective gets shot*
+ Player: Detective are you fine.\n
+Detective: yeah i am , Looks like they are having an arguement.Use it to your advantage.\n
+Player: yeah i will The player uses his
+ <gun>
+
+Action-1:<Handgun>
+the player sees five people are alive
+He takes cover and tries to remain stealthy.
+He decides to wait till all the enemy people are dead.
+He shoots the last person on his leg
+Gets information about his 
+item
+
+
+Action-2:<Uzi>
+the player sees five people are alive
+He takes cover and tries to remain stealthy but fails
+He shoots all of them with his submachinegun 
+He shoots the last person on his leg
+Gets information about his item
+
+
+*The player goes to the palace and finally returns the object*
+THE END
+
+
+":{"end the game":11}},
+{"#if he doesn't helped the tramp
+
+The player has 100$ with him
+The player buys a basic Handgun.
+
+":{"":,"proceed":10}},
+{"
+
+*The Player and Detective board a metro to reach Royale street*\n
+Player: Are you sure we can find them here?
+\nDetective: My Intel is never wrong.
+
+*Both of them reached the building*\n
+*They suddenly here a gunshot*
+*They rush into the building*
+*The Detective gets shot*
+ All other actions will lead to the destruction of the bot
+# The Player dies,Game over!!":{"end the game":11}},{"Thanks for playing":"hope u enjoyed"}
+
+
+

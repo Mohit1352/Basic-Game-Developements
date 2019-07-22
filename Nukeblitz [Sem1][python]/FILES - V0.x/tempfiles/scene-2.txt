@@ -1,0 +1,15 @@
+*The player along with his bot go to a dingy old cabin at the corner of grim street*
+*knocks on the door*\n
+Player (to himself): I hope he will help me.\n
+Mysterious voice : Who are you? Why have you come here?\n
+Player : I am looking for Sir Arthur Conan Doyle. I have a case to discuss with him.\n
+Mysterious voice : Come in.\n
+*The player enters the cabin , a maid servant takes the player to the ailing detective*
+\nPlayer : I have been robbed of an item which was of national importance.\n
+Detective : Why don't you report it to the police , I am sure they would do everything
+ within their strength to find such a high profile item.\n
+Player : I want to keep a low profile on this matter.\n
+Detective : Fine I will help you!!
+\nBut I am ill and have some work which I need to complete.\n
+Player (to himself): He is the only one who can help me.\n
+Player: I would be glad to help you out.
