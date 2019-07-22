@@ -1,0 +1,197 @@
+#include <stdio.h>
+
+#include <string.h>
+
+#include <stdlib.h>
+
+#include <time.h>
+
+//print grid
+
+void printGrid(char grid[81]){
+	int i;
+	for(i = 0; i < 81; i++){
+
+		if(i %9==0)
+
+			printf("\n");
+
+		printf("%c ",grid[i]);	
+
+
+	} 
+}
+
+//read csv
+
+void read( char data[10][81]){
+
+	char ch; int c,i;
+	FILE *fp = fopen("sol.csv","r");
+
+	if(fp ==NULL)
+
+		printf("Error\n");
+	for(i = 0; i < 10; i++){
+		c=0;
+		
+while((ch =fgetc(fp)) != '\n'){
+
+			data[i][c] = ch;
+
+			c++;
+
+		}
+
+	}
+	
+/*	
+	for(int i = 0 ; i< 10; i++){
+
+		for(int j = 0; j < 81; j++){
+
+			printf("%c ",data[i][j]);
+
+		}printf("\n");
+	}*/
+
+	fclose(fp);
+}
+
+//read random grid
+
+void getGrid(char data[10][81], int ln, char grid[81]){
+
+/*
+	strcpy(grids[0],strtok(data,"\n"));
+
+	printf("%s\n",grids[0]);
+
+	for(int i = 1; i < 10;i++){
+
+		strcpy(grids[i],strtok(NULL,"\n"));
+
+		printf("%s\n",grids[i]);
+	}*/
+	int i;
+	int max = 810 - 81*(9-ln);
+
+	//int n = 0;
+
+	for(i = 0; i < 81; i++){
+
+		grid[i] = data[ln][i];
+
+		//n++;
+
+
+	}
+
+}
+
+//function to choose random grid 
+void pickGrid(int *n){
+
+	srand(time(NULL));
+
+	*n = (rand()%10);
+}
+
+//function to randomly pop elements of the grid
+
+void makePuzzle(char puzzle[81]){
+
+	int arr[81],i;
+
+	shuffle(arr);
+
+	for(i = 0; i < 33; i++){
+
+		int pos = arr[i];
+
+		puzzle[pos] = ' ';
+
+	}
+
+}
+
+//fisher yates algorithm
+
+void shuffle(int arr[81]){
+
+
+	for(int i = 0; i < 81; i++)
+
+		arr[i] = i;
+	// Use a different seed value so that we don't get same
+ 
+	srand ( time(NULL) ); 
+
+  	
+    	// Start from the last element and swap one by one. We don't
+ 
+    	// need to run for the first element that's why i > 0
+ 
+	for (int i = 80; i > 0; i--) {
+ 
+        // Pick a random index from 0 to i
+ 
+		int j = rand() % (i+1);
+ 
+  
+        // Swap arr[i] with the element at random index
+ 
+        	int temp = arr[i];
+
+		arr[i] = arr[j];
+
+		arr[j] = temp; 
+
+
+    } 
+
+}
+
+/*void main(){
+
+	char data[10][81], grid[81],puzzle[81];
+
+	read(data);
+	
+//printf("%s %d\n", data,strlen(data));
+
+
+	int ln;
+
+	pickGrid(&ln);
+
+	//printf("%d",ln);
+
+	getGrid(data,ln,grid);
+
+
+	strcpy(puzzle,grid);
+
+	makePuzzle(puzzle);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	printGrid(puzzle);
+
+  }
